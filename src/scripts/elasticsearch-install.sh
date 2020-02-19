@@ -434,7 +434,7 @@ install_repository_azure_plugin()
 
 install_additional_plugins()
 {
-    SKIP_PLUGINS="license shield watcher marvel-agent graph cloud-azure x-pack repository-azure"
+    SKIP_PLUGINS="license shield watcher marvel-agent graph cloud-azure x-pack"
 
     if dpkg --compare-versions "$ES_VERSION" "ge" "6.7.0"; then
       # plugins are bundled in the distribution
